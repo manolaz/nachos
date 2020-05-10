@@ -1,0 +1,1 @@
+cmd_/home/tristan/oss/TD5kernel/special-3d.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/tristan/oss/TD5kernel/special-3d.ko /home/tristan/oss/TD5kernel/special-3d.o /home/tristan/oss/TD5kernel/special-3d.mod.o ;  true
